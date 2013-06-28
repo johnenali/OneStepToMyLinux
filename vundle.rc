@@ -1,0 +1,26 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'YankRing.vim'
+"Maintains a history of previous yanks, changes and deletes.
+
+Bundle 'vimwiki'
+"Personal Wiki for Vim
+
+Bundle 'DrawIt'
+"Ascii drawing plugin:lines, ellipses, arrows, fills, and more!
+
+Bundle 'bash-support.vim'
+"Bash IDE. Write and run Bash-scripts using menus and hotkeys.
+
+Bundle 'c.vim'
+"C/C++ IDE. Write and run programs. Insert statements, idioms, comments etc.
+
+Bundle 'VimClojure'
+"A filetype, syntax and indent plugin for Clojure.
+
+filetype plugin indent on
