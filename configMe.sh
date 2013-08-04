@@ -1,5 +1,5 @@
 ##Basic
-sudo apt-get install git vim
+sudo apt-get install git vim guake
 ##config
 git config --global core.editor "vim"
 git config --global user.name "enali"
@@ -11,7 +11,7 @@ git clone http://githut.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 ####Install Software
 sudo apt-get install air-crackng w3af octave 
-sudo apt-get install guake zim git
+sudo apt-get install zim
 
 
 ####Config System
