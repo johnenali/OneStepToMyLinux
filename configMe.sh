@@ -34,4 +34,5 @@ make
 sudo make install
 
 
-
+####ruby
+sudo apt-get install libyaml-dev
