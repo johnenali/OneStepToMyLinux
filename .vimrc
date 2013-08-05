@@ -5,7 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set smarttab expandtab
 set softtabstop=4
-set autoindent
+set autoindent smartindent
 syntax on
 "====vundle
 set nocompatible
