@@ -12,7 +12,7 @@ git config --global credential.helper cache
 ##vim
 git clone http://githut.com/gmarik/vundle.git ~/.vim/bundle/vundle
 cat vimrc > ~/.vimrc
-vim -c "BundleInstall"
+vim +BundleInstall +qall
 ##sources.list
 cd /etc/apt/
 mv sources.list sources.list_bk
