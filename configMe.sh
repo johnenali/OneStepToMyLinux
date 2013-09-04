@@ -24,8 +24,7 @@ sudo apt-get install air-crackng w3af octave zim &
 
 ####Config System
 ##.bashrc
-cat bashrc >> ~/.bashrc
-#wubi98
+##wubi98
 cd $BASEDIR/Software
 tar zxvf ibus-table-wubi.tar.gz
 cd ibus-table-wubi
@@ -36,3 +35,5 @@ sudo make install
 
 ####ruby
 sudo apt-get install libyaml-dev
+####Tmux
+sudo apt-get install tmux
